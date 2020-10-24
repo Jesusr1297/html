@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<!-- This is a comment -->
+<!-- When adding language to html file just do this -->
+
+<!-- yo can see language and region codes here https://www.w3schools.com/tags/ref_language_codes.asp -->
+<html lang='en'>
+	<head>
+		<title>	My title </title>
+	</head>
+
+	<body>
+		<p> we learned about codes and regions, you can see the meanings here<a href='https://www.w3schools.com/tags/ref_language_codes.asp'> here </a> </p>
+		
+		<p title='wow this is useful'> we learned about title atribute, pass your mouse over me! </p>
+
+		<p title='always use "quotes"'>  rember 'always' use quotes, prevent mistakes </p>
+		
+	</body>
+</html>
