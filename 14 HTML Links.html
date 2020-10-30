@@ -27,5 +27,95 @@
             <li><strong> _parent </strong> - Opens the document in the parent frame</li>
             <li><strong>_top </strong>- Opens the document in the full body of the window</li>
         </ul>
+        <p> for example: <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> opens link in another tab</p>
+        <hr>
+        <h1>Absolute URLs vs. Relative URLs</h1>
+        <h2>Absolute URLs</h2>
+        <p>Absolute URLs are the ones wich include a link to a web page (www)</p>
+        <p>This is an <a href="https://www.youtube.com" target="_blank"> example</a></p>
+        <h2>Relative URLs</h2>
+        <p>Relative URLs are the ones who link to another local page (file a to file b)</p>
+        <p>This is an <a href="0 Hello world.html" target="_blank"> example</a></p>
+        <hr>
+        <h1>Different Colors</h1>
+        <p>By default, a link will appear like this (in all browsers):
+            <ul>
+                <li>An unvisited link is underlined and blue</li>
+                <li>A visited link is underlined and purple</li>
+                <li>An active link is underlined and red</li>
+            </ul>
+            
+            <small><strong>Note:</strong>You can change the link state colors by using CSS <br>
+                In the comments we can find an example of how it's made</small></p>
+
+            <!--
+
+                <style>
+                    a:link {
+                    color: green;
+                    background-color: transparent;
+                    text-decoration: none;
+                    }
+
+                    a:visited {
+                    color: pink;
+                    background-color: transparent;
+                    text-decoration: none;
+                    }
+
+                    a:hover {
+                    color: red;
+                    background-color: transparent;
+                    text-decoration: underline;
+                    }
+
+                    a:active {
+                    color: yellow;
+                    background-color: transparent;
+                    text-decoration: underline;
+                    }
+                </style>
+            -->
+        <hr>
+        <h2>Buttons</h2>
+        <p>We can use buttons as links too</p>
+        <p>In the comments we can see how it's done</p>
+        <!--
+
+            <style>
+                a:link, a:visited {
+                background-color: #f44336;
+                color: white;
+                padding: 15px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                }
+
+                a:hover, a:active {
+                background-color: red;
+                }
+            </style>
+        -->
+        <hr>
+        <h1>Create Bookmarks</h1>
+        <p>HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page</p>
+        <p>To achieve this, we need to do two things</p>
+        <p><ul>
+            <li>First, use the id attribute to create a bookmark <br>
+                "h2 id="C4""Chapter 4"/h2" </li>
+            <li>Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page <br>
+                "a href="#C4""Jump to Chapter 4"/a""</li>
+            </ul>
+        </p>
+
+        <hr>
+        <h1>Chapter Summary</h1>
+        <ul>
+            <li>Use the id attribute (id="value") to define bookmarks in a page</li>
+            <li>Use the href attribute (href="#value") to link to the bookmark</li>
+        
+        </ul>
+
     </body>
 </html>
